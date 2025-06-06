@@ -112,9 +112,9 @@ export default function Header() {
               />
             </div>
             <div>
-              <h2 className="text-sm font-bold" style={{ color: "#24101f" }}>
+              <p className="text-sm font-bold" style={{ color: "#24101f" }}>
                 01 42 89 53 18
-              </h2>
+              </p>
               <p className="text-sm font-bold" style={{ color: "#24101f" }}>
                 contact@antheor-paris.fr
               </p>
@@ -142,11 +142,11 @@ export default function Header() {
               />
             </div>
             <div>
-              <h2 className="text-sm font-bold" style={{ color: "#24101f" }}>
+              <p className="text-sm font-bold" style={{ color: "#24101f" }}>
                 8, RUE CORVETTO
                 <br />
                 75008 PARIS
-              </h2>
+              </p>
             </div>
           </div>
         </div>
