@@ -1,14 +1,14 @@
 import Header from "@/components/Header";
+import Banner from "@/components/Banner";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="">
       <Header />
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+      <main className="">
+        <Banner />
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-      </footer>
     </div>
   );
 }
