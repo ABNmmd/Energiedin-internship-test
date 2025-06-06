@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+/* Font configurations */
+:root {
+  --font-open-sans: var(--font-open-sans);
+  --font-playfair-display: var(--font-playfair-display);
+}
+
+/* Default body text using Open Sans */
+body {
+  font-family: var(--font-open-sans), sans-serif;
+}
+
+/* Headlines using Playfair Display */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playfair-display), serif;
+}
