@@ -94,7 +94,7 @@ export default function ContactForm() {
               <div className="flex justify-center pt-6">
                 <button
                   type="submit"
-                  className="flex items-center gap-2 px-8 py-3 text-black font-semibold font-body text-sm hover:opacity-90 transition-opacity rounded"
+                  className="flex items-center gap-2 px-8 py-2 text-black font-semibold font-body text-sm hover:opacity-90 transition-opacity rounded"
                   style={{ backgroundColor: "#fff" }}
                 >
                   Envoyer
