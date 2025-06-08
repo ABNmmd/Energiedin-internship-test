@@ -17,49 +17,49 @@ export default function AboutUs() {
                 </span>
               </div>
 
-              <h2 className="text-lg lg:text-xl font-bold mb-6 text-gray-900">
+              <h2 className="text-base lg:text-lg font-semibold font-serif mb-6 text-gray-900">
                 Nous sommes spécialisés dans le rachat d'Or,
                 d'Argent & d'Antiquités, depuis plus de 20 ans.
               </h2>
               {/* Product List */}
               <div className="space-y-3">
                 <div className="flex items-start gap-2">
-                  <span className="mt-1 flex-shrink-0 text-xs" style={{ color: "#cf9b17" }}><FaCheck /></span>
+                  <span className="mt-1 flex-shrink-0 text-[10px]" style={{ color: "#cf9b17" }}><FaCheck /></span>
                   <p className="text-sm" style={{ color: "#646774" }}>
                     Achat de métaux précieux : Or (à 32€ le gramme de 18K et jusqu'à 59€/g) - Argent - Platine
                   </p>
                 </div>
 
                 <div className="flex items-start gap-2">
-                  <span className="mt-1 flex-shrink-0 text-xs" style={{ color: "#cf9b17" }}><FaCheck /></span>
+                  <span className="mt-1 flex-shrink-0 text-[10px]" style={{ color: "#cf9b17" }}><FaCheck /></span>
                   <p className="text-sm" style={{ color: "#646774" }}>
                     Pièces or et argent - Lingots or et argent
                   </p>
                 </div>
 
                 <div className="flex items-start gap-2">
-                  <span className="mt-1 flex-shrink-0 text-xs" style={{ color: "#cf9b17" }}><FaCheck /></span>
+                  <span className="mt-1 flex-shrink-0 text-[10px]" style={{ color: "#cf9b17" }}><FaCheck /></span>
                   <p className="text-sm" style={{ color: "#646774" }}>
                     Argenterie ancienne ( Odiot - Christofle - Puiforcat )
                   </p>
                 </div>
 
                 <div className="flex items-start gap-2">
-                  <span className="mt-1 flex-shrink-0 text-xs" style={{ color: "#cf9b17" }}><FaCheck /></span>
+                  <span className="mt-1 flex-shrink-0 text-[10px]" style={{ color: "#cf9b17" }}><FaCheck /></span>
                   <p className="text-sm" style={{ color: "#646774" }}>
                     Bijoux d'occasion, bijoux modernes, bijoux de marque (Van-Cleef, Cartier...)
                   </p>
                 </div>
 
                 <div className="flex items-start gap-2">
-                  <span className="mt-1 flex-shrink-0 text-xs" style={{ color: "#cf9b17" }}><FaCheck /></span>
+                  <span className="mt-1 flex-shrink-0 text-[10px]" style={{ color: "#cf9b17" }}><FaCheck /></span>
                   <p className="text-sm" style={{ color: "#646774" }}>
                     Montres de marque (Rolex, Patek Philippe, Audemards Piguet...)
                   </p>
                 </div>
 
                 <div className="flex items-start gap-2">
-                  <span className="mt-1 flex-shrink-0 text-xs" style={{ color: "#cf9b17" }}><FaCheck /></span>
+                  <span className="mt-1 flex-shrink-0 text-[10px]" style={{ color: "#cf9b17" }}><FaCheck /></span>
                   <p className="text-sm" style={{ color: "#646774" }}>
                     Antiquités (Tableaux, Bronzes, Bibelots, Art des années 30 et 50...)
                   </p>

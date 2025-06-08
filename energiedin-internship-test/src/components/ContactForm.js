@@ -18,14 +18,14 @@ export default function ContactForm() {
           <div className="text-white">
             {/* Header */}
             <div className="mb-8">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-4 h-[2px]" style={{ backgroundColor: "#eab120" }}></div>
+              <div className="flex items-center gap-2 mb-6">
+                <div className="w-3 h-[2px]" style={{ backgroundColor: "#eab120" }}></div>
                 <span className="text-sm font-semibold uppercase tracking-wider font-body" style={{ color: "#fff", letterSpacing: "0.2em" }}>
                   CONTACTEZ-NOUS
                 </span>
               </div>
               
-              <h2 className="text-3xl font-serif mb-4 text-white">
+              <h2 className="text-2xl font-serif mb-1 text-white">
                 Besoin d'un conseil ?
               </h2>
               

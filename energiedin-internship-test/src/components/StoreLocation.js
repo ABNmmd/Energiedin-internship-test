@@ -31,7 +31,7 @@ export default function StoreLocation() {
             {/* Opening Hours Header */}
             <div className="flex items-center gap-3 mb-6">
               <FaRegClock className="text-2xl" style={{ color: "#cf9b17" }} />
-              <h3 className="text-2xl font-semibold font-serif">Horaires d'ouverture</h3>
+              <h3 className="text-2xl font-normal font-serif">Horaires d'ouverture</h3>
             </div>
 
             {/* Address */}
@@ -88,7 +88,7 @@ export default function StoreLocation() {
 
             {/* Appointment Section */}
             <div>
-              <h4 className="text-xl font-bold mb-3" style={{ color: "#cf9b17" }}>SUR RENDEZ-VOUS</h4>
+              <h4 className="text-lg font-semibold mb-3" style={{ color: "#cf9b17" }}>SUR RENDEZ-VOUS</h4>
               <p className="text-base font-body">De 17h à 19h00</p>
             </div>
           </div>

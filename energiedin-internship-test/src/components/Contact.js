@@ -7,7 +7,7 @@ export default function Contact() {
                 {/* Header Section */}
                 <div className="text-center mb-12">
                     <div className="flex items-center justify-center gap-3 mb-2">
-                        <span className="text-sm font-semibold uppercase tracking-wider font-body" style={{ color: "#cf9b17", letterSpacing: "0.2em" }}>
+                        <span className="text-sm font-semibold uppercase tracking-wider font-body" style={{ color: "#cf9b17", letterSpacing: "0.3em" }}>
                             ANTHÉOR PARIS
                         </span>
                     </div>
@@ -36,9 +36,9 @@ export default function Contact() {
                                 backgroundRepeat: "no-repeat"
                             }}
                         >
-                            <h3 className="text-lg font-semibold mb-1 font-body" style={{ color: "#e5d9e2" }}>TÉLÉPHONE</h3>
+                            <h3 className="text-lg font-normal mb-1 font-serif" style={{ color: "#e5d9e2" }}>TÉLÉPHONE</h3>
                             <div className="w-10 h-[1px] mb-2" style={{ backgroundColor: "#cf9b17" }}></div>
-                            <div className="text-xl font-bold text-white mb-2 font-body">01 42 89 53 18</div>
+                            <div className="text-xl text-white mb-2 font-body">01 42 89 53 18</div>
                             <div className="flex items-center gap-1 text-white font-body text-xs">
                                 <span>Être rappelé</span>
                                 <span className="font-bold" style={{ color: "#cf9b17" }}>→</span>

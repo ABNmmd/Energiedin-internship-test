@@ -49,7 +49,8 @@ export default function Header() {
       `}</style>
       {/* Top */}
       <div style={{ backgroundColor: "#24101f" }} className="text-white">
-        <div className="container mx-auto px-28 flex justify-between">          <div className="flex border-l border-r border-gray-600">
+        <div className="container mx-auto px-28 flex justify-between">          
+          <div className="flex border-l border-r border-gray-600">
             <a
               href=""
               className="flex items-center gap-2 text-sm font-medium px-4 py-2"
@@ -112,10 +113,10 @@ export default function Header() {
               />
             </div>
             <div>
-              <p className="text-sm font-bold" style={{ color: "#24101f" }}>
+              <p className="text-sm font-semibold" style={{ color: "#24101f" }}>
                 01 42 89 53 18
               </p>
-              <p className="text-sm font-bold" style={{ color: "#24101f" }}>
+              <p className="text-sm font-semibold" style={{ color: "#24101f" }}>
                 contact@antheor-paris.fr
               </p>
             </div>
@@ -142,7 +143,7 @@ export default function Header() {
               />
             </div>
             <div>
-              <p className="text-sm font-bold" style={{ color: "#24101f" }}>
+              <p className="text-sm font-semibold" style={{ color: "#24101f" }}>
                 8, RUE CORVETTO
                 <br />
                 75008 PARIS
@@ -151,20 +152,23 @@ export default function Header() {
           </div>
         </div>
         {/* menu */}
-        <nav className="border-t border-gray-200 pt-4 mt-8">          <div className="container mx-auto px-28">
+        <nav className="border-t border-gray-200 pt-4 mt-8">          
+          <div className="container mx-auto px-28">
               <ul className="flex gap-4 justify-between">
-                {menuItems.map((item) => (                  <li
+                {menuItems.map((item) => (                  
+                  <li
                     key={item.name}
                     className={`relative ${item.subMenu ? "has-submenu" : ""}`}
-                  >                    <a
-                      href={item.subMenu ? "#" : item.href}                      className={`text-sm font-semibold flex items-center gap-1 relative ${
+                    style={{ color: "#24101f" }}
+                  >                    
+                  <a
+                      href={item.subMenu ? "#" : item.href}                      
+                      className={`text-sm font-semibold flex items-center gap-1 relative ${
                         item.active 
                           ? "active-topline" 
-                          : "text-gray-700 hover:text-blue-600"
+                          : ""
                       }`}
                       style={item.active ? { color: "#cf9b17" } : {}}
-                      onMouseEnter={item.active ? undefined : (e) => e.target.style.color = "#1d4ed8"}
-                      onMouseLeave={item.active ? undefined : (e) => e.target.style.color = "#374151"}
                       onClick={
                         item.subMenu
                           ? (e) => {
@@ -174,7 +178,8 @@ export default function Header() {
                           : undefined
                       }
                     >
-                      {item.name}                      {item.subMenu && (
+                      {item.name}                      
+                      {item.subMenu && (
                         <FaChevronDown
                           className={`text-[9px] transition-transform duration-200 ${
                             openSubmenu === item.name ? "rotate-180" : ""

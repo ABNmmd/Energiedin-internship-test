@@ -31,9 +31,9 @@ export default function Banner() {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-6 leading-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-normal mb-6 leading-tight">
             Rachat d'Or à Paris{" "}
-            <span className="text-1xl md:text-2xl lg:text-3xl font-bold">
+            <span className="text-1xl md:text-2xl lg:text-3xl">
               ( Paiement Comptant par Chèque)
             </span>
           </h1>
